@@ -1,1 +1,2 @@
-# Utility functions
+# utils.py — shared utility functions
+
