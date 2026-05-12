@@ -1,6 +1,6 @@
 import re
 
-_NON_ALPHANUM = re.compile(r"[^a-z0-9]")
+_NON_ALPHANUM: re.Pattern[str] = re.compile(r"[^a-z0-9]")
 
 
 def is_palindrome(s: str) -> bool:
